@@ -1,17 +1,17 @@
-# Async Event Emitter [![NPM version](https://badge.fury.io/js/async-event-emitter.png)](https://www.npmjs.com/package/async-event-emitter)
+# Async Event Emitter [![NPM version](https://badge.fury.io/js/aeventemitter.png)](https://www.npmjs.com/package/aeventemitter)
 
 Library that partialy (for now) implements Node.js' `events.EventEmitter` interface but with asynchronous sugar.
 
 ## Installation
 ```bash
-npm i --save async-event-emitter
+npm i --save aeventemitter
 # or
-yarn add async-event-emitter
+yarn add aeventemitter
 ```
 
 ## Usage example
 ```js
-import AsyncEventEmitter from 'async-event-emitter';
+import AsyncEventEmitter from 'aeventemitter';
 
 const eventEmitter = new AsyncEventEmitter();
 const EVENT_NAME = 'event-name';

@@ -1,9 +1,12 @@
 {
-  "name": "async-event-emitter",
+  "name": "aeventemitter",
   "version": "1.0.0",
   "description": "Asynchronous event emitter",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "jest",
     "build": "tsc",
